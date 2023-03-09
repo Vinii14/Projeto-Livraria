@@ -1,0 +1,17 @@
+﻿<link href="~/Content/font-awesome.css" rel="stylesheet" />
+@{
+    ViewBag.Title = "Index";
+}
+
+<section class="row" aria-labelledby="aspnetTitle">
+    <h1 id="title">Livraria do Marcola</h1>
+    <p class="lead">Faça Cadastros, Modificação e Alteração</p>
+    <p><a href="https://marcuspaixao.com.br" class="btn btn-primary btn-md"><i class="fa fa-user" aria-hidden="true"></i> Feito por Marcus</a></p>
+</section>
+<br />
+<h1 class="text-center" style="text-transform:uppercase">Links de Acesso</h1><br />
+<h5><i class="fa fa-plus" aria-hidden="true"></i> @Html.ActionLink("Cadastrar Livros", "CadLivro", "Livraria")</h5><br />
+<h5><i class="fa fa-users" aria-hidden="true"></i> @Html.ActionLink("Selecionar Livros", "CadLivro", "Livraria")</h5><br />
+<h5><i class="fa fa-address-book-o" aria-hidden="true"></i> @Html.ActionLink("Alterar Livros", "CadLivro", "Livraria")</h5><br />
+<h5><i class="fa fa-ban" aria-hidden="true"></i> @Html.ActionLink("Excluir Livros", "CadLivro", "Livraria")</h5><br />
+
